@@ -1,0 +1,19 @@
+.dropzone-title-error {
+  font-weight: 500;
+  font-size: 32px;
+  color: #222;
+  margin-bottom: 24px;
+  line-height: 100%;
+}
+
+.dropzone-description-error {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.custom-button.ant-btn.dropzone-modal-btn {
+  color: #567FF2;
+  font-weight: 600;
+  font-size: 24px;
+}

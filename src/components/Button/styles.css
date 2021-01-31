@@ -1,0 +1,46 @@
+.custom-button.ant-btn {
+  color: #fff;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 110%;
+  padding: 16px;
+  height: 100%;
+  border-radius: 8px;
+  max-height: 56px;
+  overflow: hidden;
+  font-family: Montserrat;
+}
+
+.custom-button.ant-btn,
+.custom-button.ant-btn:hover,
+.custom-button.ant-btn:focus {
+  border: none;
+}
+
+.gradient-button.ant-btn,
+.gradient-button.ant-btn:hover,
+.gradient-button.ant-btn:focus {
+  background: linear-gradient(90.54deg, #11BDFD 1.25%, #9C3EE5 98.06%);
+  color: #fff;
+}
+
+.gradient-button.custom-button.ant-btn[disabled] {
+  background: #F5F5F5;
+  color: #888888;
+}
+
+.custom-button.secondary {
+  color: #222;
+}
+
+.custom-button.secondary,
+.secondary.ant-btn:hover,
+.secondary.ant-btn:focus,
+.secondary.ant-btn:active {
+  background: #F5F5F5;
+}
+
+.custom-button.secondary.ant-btn[disabled],
+.custom-button.secondary.ant-btn[disabled]:hover {
+  color: #222;
+}

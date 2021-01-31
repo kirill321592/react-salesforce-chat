@@ -1,0 +1,18 @@
+.property-tab__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #567FF2;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  float: left;
+}
+
+.property-tab__link__img {
+  transform: rotate(180deg);
+}
+
+.property-tab__link__img path {
+  stroke: #567FF2;
+}

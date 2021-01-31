@@ -1,0 +1,51 @@
+textarea.ant-input.chat-input {
+  border: 0;
+  border-radius: 8px;
+  height: 160px;
+  resize: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #888888;
+  line-height: 100%;
+  padding: 16px;
+}
+
+textarea.ant-input.chat-input.with-error {
+  border: 3px solid #D19700;
+  border-radius: 0 0 8px 8px;
+}
+
+.validation-error {
+  background: #D19700;
+  border: 3px solid #D19700;
+  border-radius: 8px 8px 0px 0px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: -42px;
+}
+
+.chat-container textarea.chat-input.ant-input:focus,
+.chat-container textarea.chat-input.ant-input-focused {
+  border-right-width: unset !important;
+  box-shadow: unset;
+}
+
+.chat-container textarea.chat-input.ant-input:hover {
+  border-right-width: unset !important;
+}
+
+@media only screen and (max-width: 1023px) {
+  .validation-error {
+    border: 2px solid #D19700;
+    top: -40px;
+  }
+}
